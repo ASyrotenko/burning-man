@@ -45,5 +45,73 @@ body {
   font-family: Anton, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.1em;
   color: var(--text-main-color);
+}
+
+.header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 321px 0;
+  color: var(--text-second-color);
+  text-transform: uppercase;
+  position: relative;
+}
+.header .header-top {
+  display: flex;
+  position: absolute;
+  top: 57px;
+  left: 50%;
+  transform:translateX(-50%)
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px ;
+  margin: 0 auto;
+
+}
+.main-nav {
+font-size: 14px;
+display: flex;
+
+}
+.nav-list {
+  display: flex;
+
+}
+.subtitle {
+font-size: 30px;
+}
+
+.main-title {
+font-size: 100px;
+}
+.main-btn {
+font-size: 17px;
+color: inherit;
+background-color: transparent;
+border: 1px solid var(--text-second-color);
+padding: 18px 23px;
+}
+.nav-link, .tel {
+  display: block;
+  padding: 14px 0;
+  color: inherit;
+}
+.logo {
+  margin-right: 69px;
+}
+.tel-nav {
+  margin-left: auto;
+}
+.nav-list {
+  gap: 40px;
+}
+.tel {
+  font-size: 17px;
 }
